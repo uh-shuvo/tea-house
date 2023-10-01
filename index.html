@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tea House</title>
+        <!-- font-awesome  -->
+        <script src="https://kit.fontawesome.com/b50f35bed9.js" crossorigin="anonymous"></script>
+        <!-- tailwind css  -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- tailwind customizing  -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <header class="container mx-auto">
+            <nav>
+                <section class="grid grid-cols-1 md:grid-cols-2 justify-around items-center ml-14 mr-14">
+                    <div>
+                        <h1 class="text-6xl font-bold">It's good <br>
+                            tea time at The <br> Tea House</h1>
+                        <p class="mt-2 ">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                            Buds.</p>
+                        <button
+                            class="bg-gradient-to-t from-orange-300 to-orange-600 oran p-2 rounded text-white font-bold mt-3">Explore
+                            More <i class="fa-solid fa-arrow-turn-up"></i></button>
+                    </div>
+                    <div>
+                        <img src="images/banner.png" alt="">
+                    </div>
+                </section>
+            </nav>
+        </header>
+    </body>
+
+</html>
